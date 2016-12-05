@@ -1,3 +1,4 @@
+FROM confirmed/jmeter-base
 
 # Expose access to logs & data files
 VOLUME [ "/logs" ]
