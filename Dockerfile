@@ -8,5 +8,5 @@ VOLUME [ "/input-data" ]
 EXPOSE 1099 60000
 
 # Run jmeter-server 
-ENTRYPOINT [ "/var/lib/apache-jmeter/bin/jmeter-server" ]
+#ENTRYPOINT [ "/var/lib/apache-jmeter/bin/jmeter-server" ]
 
